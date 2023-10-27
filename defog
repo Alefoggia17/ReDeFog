@@ -20,7 +20,7 @@
 #########################################################################################################################
 
 # link local address to the config file - UPDATE condig.sh LOCATION
-source /mnt/c/Users/alefo/Desktop/GENIO/DeFog/DeFog-master/DeFog/configs/config.sh
+#source /path/config.sh
 # create local variables of config variables - Make sure to UPDATE the location of the configs
 cloudaddress=$cloudaddress
 clouduser=$clouduser
@@ -30,8 +30,8 @@ edgeuser1=$edgeuser1
 edgeuser2=$edgeuser2
 awskey=$awskey
 cloudpublicip=$cloudpublicip
-configslocation=/mnt/c/Users/alefo/Desktop/GENIO/DeFog/DeFog-master/DeFog/configs/*
-configfilelocation=/mnt/c/Users/alefo/Desktop/GENIO/DeFog/DeFog-master/DeFog/configs/config.sh
+configslocation=/path/configs/*
+configfilelocation=/path/config.sh
 
 users=1
 ramp_up=0
